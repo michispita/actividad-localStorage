@@ -6,6 +6,6 @@ document.getElementById('buttonText').addEventListener('click', function() {
     // Guardar el valor en localStorage
     localStorage.setItem('dataValue', dataValue);
   
-    // Confirmación opcional
+    // Confirmación 
     alert('¡Guardado!');
   });
